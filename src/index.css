@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand-navy: #002855;
+  --color-brand-navy-deep: #163a64;
+  --color-brand-navy-darker: #0f2c50;
+  --color-brand-gold: #fbb931;
+  --color-brand-gold-line: #c9a33a;
+  --color-brand-sky: #e5f3fdb2;
+  --color-brand-link: #1855f5;
+  --color-brand-success: #2fb344;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white font-sans text-gray-800 antialiased;
+}
