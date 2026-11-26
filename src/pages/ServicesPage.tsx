@@ -4,7 +4,7 @@ import { accountServices } from "../features/services/services";
 export default function ServicesPage() {
   return (
     <section aria-labelledby="services-heading">
-      <title>Account Management Portal | FirstBank</title>
+      <title>Account Management Portal | Logic Bank</title>
       <h1 id="services-heading" className="text-lg leading-none font-extralight text-gray-900">
         Kindly select an account management service
       </h1>

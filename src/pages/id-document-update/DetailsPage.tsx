@@ -24,7 +24,7 @@ export default function DetailsPage() {
 
   return (
     <div className="mx-auto min-h-[635px] max-w-[50.75rem] pt-1">
-      <title>Identity Document Update | FirstBank</title>
+      <title>Identity Document Update | Logic Bank</title>
       <FlowHeader title="Identity Document Update" backTo={paths.identityDocumentUpdate.consent} />
 
       <div className="mt-12">

@@ -17,8 +17,8 @@ export default function TermsText({
   return (
     <div className="space-y-6 text-[21.15px] leading-[1.45] font-light text-gray-700 sm:text-xl">
       <p>
-        I, {customerName}, hereby provide my consent to First Bank of Nigeria
-        Limited (“FirstBank”) to update the following on my account:
+        I, {customerName}, hereby provide my consent to Logic Bank
+        Limited (“Logic Bank”) to update the following on my account:
       </p>
       <ol className="list-inside list-decimal pl-1">
         <li>Account Number: {accountNumber}</li>
@@ -27,7 +27,7 @@ export default function TermsText({
       </ol>
       <p>
         I understand and agree to abide by the terms and conditions set forth by
-        FirstBank, and I acknowledge receipt of the bank’s account agreement and
+        Logic Bank, and I acknowledge receipt of the bank’s account agreement and
         related documents. I confirm that all information provided for this
         account maintenance request is true, accurate, and complete to the best
         of my knowledge.
@@ -66,7 +66,7 @@ export default function TermsText({
       <p>
         By selecting “I Agree” below, I acknowledge that I have read and
         understood the contents of these Account Maintenance Terms and
-        Conditions, and I willingly provide my consent to FirstBank.
+        Conditions, and I willingly provide my consent to Logic Bank.
       </p>
     </div>
   );

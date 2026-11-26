@@ -132,13 +132,14 @@ Inside `features/id-document-update/`:
 ### Performance
 - Every page is its own chunk (`React.lazy`) with a skeleton loader shaped like the page. The ID flow is only downloaded when the customer starts it.
 - Only the `lucide-react` icons actually used are bundled. No form or state libraries.
+- The logo and favicon are inline SVG: no image downloads on first paint.
 - Image previews use object URLs, which are released when no longer needed.
 
 ## Where this departs from the design
 
 | Item | Decision |
 |---|---|
-| **Bank name** | The case study says *Logic Bank*; the Figma design and supplied logo are *FirstBank*. The UI follows the design. The name lives in `src/config/site.ts`. |
+| **Branding** | The Figma design shows another bank's branding; the app follows the case study and is branded **Logic Bank**: a vector logo (`src/components/Logo.tsx`), a generic virtual assistant ("Logi"), and placeholder contact details on the reserved `.example` domain in the consent text. The bank name lives in `src/config/site.ts`. |
 | Terms & Conditions copy | The design text is a template (`[Your Full Name]`, `[Bank's Name]`, account-opening wording). It's filled in with the customer's name, account and document type, and worded for maintenance. |
 | Typos | "inputed" → "entered", "Bll" → "Bill", "10-digits" → "10-digit", "is failed" → "failed". |
 | Resend timer | Shown as `0:56` (the design's "0.56 secs" read as a typo). |
@@ -146,7 +147,7 @@ Inside `features/id-document-update/`:
 | Uploaded file | Matches the design (paperclip, name, size), plus a small **×** to remove the file. The file name opens a preview. |
 | Terms checkbox | Ticking it opens the Terms page; it's only ticked by pressing **I Agree** there, so the terms are always shown first. |
 | Select options | Occupation, nature of business and turnover bands are placeholder lists, since the design shows single sample values. |
-| Header/footer links, search, Help, Fibani | Placeholders (`#`). They're outside the scope of this flow. |
+| Header/footer links, search, Help, virtual assistant | Placeholders (`#`). They're outside the scope of this flow. |
 | Footer background art | Not included (no source asset). |
 
 ## Connecting a real backend

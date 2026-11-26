@@ -24,7 +24,7 @@ export default function Footer() {
         {/* Logo, language and socials */}
         <div className="flex flex-col gap-6 border-b border-brand-gold-line pb-9 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-2">
-            <LogoMark className="h-[45px] w-[39px]" />
+            <LogoMark className="size-11" />
             <label htmlFor="footer-language" className="sr-only">
               Language
             </label>

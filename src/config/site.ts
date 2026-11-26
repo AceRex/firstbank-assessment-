@@ -1,11 +1,11 @@
 export const site = {
-  bankName: "FirstBank",
+  bankName: "Logic Bank",
   portalName: "Account Management Portal",
   openAccountUrl: "#",
   helpUrl: "#",
-  assistantName: "Fibani",
+  assistantName: "Logi",
   assistantUrl: "#",
-  copyright: `© ${new Date().getFullYear()} First Bank of Nigeria Ltd. An FBNHoldings Company. Licensed by the Central Bank of Nigeria`,
+  copyright: `© ${new Date().getFullYear()} Logic Bank Ltd. Licensed by the Central Bank of Nigeria`,
 } as const;
 
 export type FooterLink = { label: string; href: string };
@@ -52,7 +52,7 @@ export const footerColumns: FooterColumn[] = [
       "Cookies Policy",
       "Communications Policy",
       "Information and Cybersecurity Policy",
-      "Delete FirstMobile Profile",
+      "Delete Mobile Profile",
     ].map(link),
   },
 ];

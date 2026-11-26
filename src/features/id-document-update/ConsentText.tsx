@@ -1,6 +1,7 @@
-const PRIVACY_POLICY_URL = "https://www.firstbanknigeria.com/home/legal/privacy-policy/";
-const CONTACT_EMAIL = "firstcontact@firstbankgroup.com";
-const DATA_PROTECTION_EMAIL = "dataprotectionoffice@firstbankgroup.com";
+// Placeholder contact details on the reserved .example domain; replace with the bank's real ones.
+const PRIVACY_POLICY_URL = "https://www.logicbank.example/legal/privacy-policy/";
+const CONTACT_EMAIL = "contact@logicbank.example";
+const DATA_PROTECTION_EMAIL = "dataprotection@logicbank.example";
 
 const linkClass = "hover:underline focus-visible:underline";
 
@@ -9,19 +10,19 @@ export default function ConsentText() {
   return (
     <div className="space-y-5 text-sm leading-5 font-normal text-gray-900">
       <p>
-        To enable First Bank of Nigeria Limited (“FirstBank”) provide you with its products and
-        services, you hereby fully authorize FirstBank and its affiliates in the FBN Holdings Plc
+        To enable Logic Bank Limited (“Logic Bank”) provide you with its products and
+        services, you hereby fully authorize Logic Bank and its affiliates in the Logic Bank
         Group to collect, record, use, share, store, process and disclose all information
         (including Personal Data and Sensitive Personal Data as defined in the Nigeria Data
         Protection Act, 2023 and other applicable Data protection laws/regulations) relating to
         you and your accounts, including, without limitation, any personal data, information
         obtained from you or from third parties, usage of your account(s), transactions/payments
         conducted on your account(s), references provided and any other credit information
-        maintained with or obtained by FirstBank and its affiliates in the FBN Holdings Plc Group
+        maintained with or obtained by Logic Bank and its affiliates in the Logic Bank Group
         (including those obtained from credit reference agencies).
       </p>
       <p>
-        You further authorize FirstBank and its affiliates in the FBN Holdings Plc Group to use
+        You further authorize Logic Bank and its affiliates in the Logic Bank Group to use
         your information to manage and administer your account, to share your information with
         service providers, debt collection agencies, third-party partners, third party
         intermediaries, statutory, governmental or regulatory bodies, credit reference and fraud
@@ -54,7 +55,7 @@ export default function ConsentText() {
       </p>
       <p>
         You hereby confirm that you have read and understood the content of this consent form.
-        You hereby grant your consent to FirstBank of Nigeria Ltd of 35 Marina, Lagos to process
+        You hereby grant your consent to Logic Bank Limited to process
         your Information including Personal Data and Sensitive Personal Data.
       </p>
     </div>
