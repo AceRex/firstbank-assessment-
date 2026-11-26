@@ -20,7 +20,7 @@ const socials = [
 export default function Footer() {
   return (
     <footer className="relative bg-brand-navy-deep text-white">
-      <div className="mx-auto w-full max-w-[61.75rem] px-4 pt-12 pb-10 sm:px-6">
+      <div className="mx-auto w-full max-w-[61.75rem] px-4 pt-12 pb-24 sm:px-6 min-[1440px]:pb-10">
         {/* Logo, language and socials */}
         <div className="flex flex-col gap-6 border-b border-brand-gold-line pb-9 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-2">
@@ -94,9 +94,11 @@ export default function Footer() {
           </button>
         </div>
 
-        {/* In flow on smaller screens; pinned to the footer's bottom-right corner on wide ones. */}
-        <AssistantChip className="mt-8 ml-auto min-[1440px]:absolute min-[1440px]:right-8 min-[1440px]:bottom-5 min-[1440px]:mt-0" />
       </div>
+
+      {/* Bottom-right corner of the footer. Below 1440px the footer gets extra bottom
+          padding (pb-24) so the chip sits under the copyright row instead of over it. */}
+      <AssistantChip className="absolute right-4 bottom-5 sm:right-8" />
     </footer>
   );
 }

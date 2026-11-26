@@ -1,4 +1,4 @@
-import { Outlet, useNavigation } from "react-router";
+import { Outlet, ScrollRestoration, useNavigation } from "react-router";
 
 export default function RootLayout() {
   // Non-idle while a route loader/action runs (once pages start using loaders).
@@ -20,6 +20,7 @@ export default function RootLayout() {
         />
       )}
       <Outlet />
+      <ScrollRestoration />
     </>
   );
 }

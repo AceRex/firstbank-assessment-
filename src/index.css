@@ -10,7 +10,12 @@
   --color-brand-gold-line: #c9a33a;
   --color-brand-sky: #e5f3fdb2;
   --color-brand-link: #1855f5;
+  --color-brand-ink: #162d4c;
   --color-brand-success: #2fb344;
+  --color-error: #d0021b;
+  --color-warning: #f04a23;
+  --color-assistant-name: #1e446a;
+  --color-assistant-tagline: #4a6a8c;
 }
 
 html {
